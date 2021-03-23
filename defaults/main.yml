@@ -1,0 +1,9 @@
+# defaults file for ubuntu-1804-mariadb-administration
+---
+ubuntu_1804_mariadb_administration_databases_present: []
+
+ubuntu_1804_mariadb_administration_databases_absent: []
+
+ubuntu_1804_mariadb_administration_users_present: []
+
+ubuntu_1804_mariadb_administration_users_absent: []

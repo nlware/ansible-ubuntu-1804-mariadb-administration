@@ -1,0 +1,8 @@
+# tasks file for ubuntu-1804-mariadb-administration
+---
+
+- include: install.yml
+
+- include: databases.yml
+
+- include: users.yml
