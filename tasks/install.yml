@@ -1,0 +1,6 @@
+# tasks file for ubuntu-1804-mariadb-server
+---
+- name: install | dependencies
+  apt:
+    name: "{{ item }}"
+  with_items: "{{ ubuntu_1804_mariadb_administration_dependencies }}"
