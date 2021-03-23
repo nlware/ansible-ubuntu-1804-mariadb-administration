@@ -1,4 +1,4 @@
 # vars file for ubuntu-1804-mariadb-administration
 ---
 ubuntu_1804_mariadb_administration_dependencies:
-  - python-mysqldb
+  - "python{{ ansible_python_version is version('3', '>=') | ternary('3', '') }}-mysqldb"
